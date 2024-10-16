@@ -1,0 +1,12 @@
+Controllers\LogoutController.class
+Models\Account.class
+Controllers\RegisterController.class
+Controllers\ScoreController.class
+DAOs\AccountDAO.class
+DAOs\ScoreDAO.class
+DB\DBConnection.class
+Models\Score.class
+Controllers\DeleteController.class
+Controllers\LoginController.class
+Controllers\SessionDataServlet.class
+Filter\URLFilter.class
