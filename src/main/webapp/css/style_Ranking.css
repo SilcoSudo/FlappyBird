@@ -124,10 +124,3 @@ h1 {
     padding-right: 10px;
     box-sizing: border-box;
 }
-
-div.ex3 {
-    background-color: lightblue;
-    width: 70vw;
-    height: 70vh;
-    overflow: auto;
-}

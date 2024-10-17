@@ -13,9 +13,9 @@
 <sql:setDataSource
     var="conn"
     driver="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-    url="jdbc:sqlserver://QUSY\\SQLZ:1433;databaseName=FlappyBird;encrypt=true;trustServerCertificate=true;"
+    url="jdbc:sqlserver://LAPTOP-AHF1EMO4:1433;databaseName=FlappyBird;encrypt=true;trustServerCertificate=true;"
     user="sa"
-    password="040104"
+    password="L692003"
     />
 
 <c:set var="DBC" value="${conn}" scope="application" />

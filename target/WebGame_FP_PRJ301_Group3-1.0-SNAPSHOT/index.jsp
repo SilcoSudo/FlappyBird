@@ -10,21 +10,13 @@
         <link rel="stylesheet" href="css/style_index.css">
         <script src="javaScript/Register.js" defer></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-        <style>
-            .alert-danger {
-                color: red;
-            }
-            .animated-gif {
-                width: 100%;
-                max-width: 500px; /* Adjust as needed */
-                height: auto;
-                border: 2px solid #000; /* Example styling */
-            }
-
-        </style>
+         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
-
+    <style>
+        .alert-danger {
+            color: red;
+        }
+    </style>
     <body>
         <c:if test="${not empty sessionScope.accountId}">
             <c:redirect url="${pageContext.request.contextPath}/FlappyShork/Home"/>
